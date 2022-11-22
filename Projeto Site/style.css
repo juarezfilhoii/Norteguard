@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Norteguard;
+    src: url(midia/aspire-sc.ttf) format("truetype");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor01:#F2F2F2;
+    --cor02:#BFBFBF;
+    --cor03:#8C8C8C;
+    --cor04:#595959;
+    --cor05:#0D0D0D;
+
+    --fonte-padrao: 'Norteguard';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor03),var(--cor04));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header img{
+    display: block;
+    margin: 0px auto;
+    max-width: 303px;
+}
+
+body{
+    background-color: var(--cor01);
+}
+div#titulo{
+    background-color: var(--cor05);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+main h1{
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+}
+main h2{
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+}
+
+main p{
+    text-indent: 30px;
+    margin: 15px 0px 15px 0px;
+}
+ul{
+    padding-left: 30px;
+}
