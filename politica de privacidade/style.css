@@ -42,7 +42,11 @@ div#titulo{
     color: white;
     font-size: 10px;
     padding: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);   
+}
+div#titulo a{
+    text-align: right;
+    color: white;
 }
 main{
     background-color: white;
