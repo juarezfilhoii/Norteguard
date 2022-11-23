@@ -79,3 +79,15 @@ main a:hover{
 ul,ol{
     padding-left: 30px;
 }
+footer{
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+footer img{
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
